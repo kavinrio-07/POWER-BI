@@ -1,0 +1,110 @@
+📊 Power BI – Shipping Cost Analysis Dashboard
+
+This project provides an end-to-end analysis of shipping costs using Power BI. It helps identify cost patterns across shipping modes, order priorities, and product containers, and highlights customer-level profitability insights.
+
+📁 Project Overview
+
+The goal of this report is to analyze the shipping cost distribution and understand how different factors influence company expenses.
+The project includes:
+
+Order Priority–wise shipping cost
+
+Ship Mode–wise cost comparison
+
+Product Container analysis (Treemap + Donut chart)
+
+Customer-level Profit, Shipping Cost & Sales
+
+Scatter plot to analyze relationships between Shipping Cost and Order Count
+
+🛠️ Tools & Technologies
+
+Power BI Desktop
+
+Power Query
+
+DAX
+
+Data Modelling
+
+Data Cleaning & Transformation
+
+📊 Visualizations Included
+1. Shipping Cost by Order Priority
+
+Helps identify which priority category contributes most to shipping expenses.
+
+2. Shipping Cost by Ship Mode
+
+Compares Regular Air, Express Air & Delivery Truck.
+
+3. Product Container Analysis
+
+Treemap and Donut chart show cost breakdown across container types (e.g., Small Box, Jumbo Box, Wrap Bag).
+
+4. Customer Profitability Table
+
+Displays:
+
+Customer Name
+
+Sum of Profit
+
+Sum of Shipping Cost
+
+Sum of Sales
+
+5. Scatter Plot
+
+Shows correlation between number of orders (Row ID count) and Shipping Cost.
+
+📑 Dataset
+
+Dataset includes:
+
+Orders
+
+People
+
+Returns
+
+Fields used:
+
+Order Priority
+
+Shipping Cost
+
+Ship Mode
+
+Product Container
+
+Customer Details
+
+Profit, Sales
+
+🔍 Insights Derived
+
+Regular Air contributes the highest shipping cost.
+
+Small Box & Large Box containers have the highest cost share.
+
+Critical & Low priority orders show significant shipping expenses.
+
+High-value customers also incur higher shipping costs.
+
+📂 Project Structure
+📁 PowerBI-ShippingCost-Analysis
+│── 📊 Dashboard.pbix
+│── 📄 README.md
+│── 📁 Dataset/
+│── 📁 Images/ (Screenshots of visuals)
+
+🚀 How to Use
+
+Clone the repository
+
+Open the .pbix file in Power BI Desktop
+
+Explore interactive visuals
+
+Use slicers to filter by category, shipping mode, and container
